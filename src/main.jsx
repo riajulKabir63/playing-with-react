@@ -8,9 +8,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
-
-// setInterval(() => {
-const element = <h1 className="watch"> {new Date().toLocaleTimeString()}</h1>;
-
-ReactDOM.render(element, document.getElementById("root"));
-// }, 1000);
